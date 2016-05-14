@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Garret>
+  <scene>
+    <scene id = "1"/>
+    <scene text = "Вы видите кота."/>
+    <additions>
+      <addition text =" Вы понимаете, что это - кошка.">
+        <requirements mig ="0" dex="0" con ="0"
+                    int="0" wis="10" char="0" />
+      </addition>
+    </additions>
+    <responds>
+      <respond text ="Жарко, говоришь? Да я горячий парень, черт побери! Мне не бывает слишком жарко!">
+      <Next_NPC name="Garret"/>
+      <Next_Stage id="2"/>
+      <Functions_Called function="Dialog"/>
+      <Player_Emotion name="EvilSmile"/>
+      <NPC_emotion name="Smile"/>
+      <requirements strength ="14" dexterity="0" constitution ="0"
+                    intelligence="0" wisdom="0" charisma="0"
+                    gold="0" profession="Fighter"/>
+    </respond>
+    <respond text ="Ладно, что поделать? Придется разобраться с ними!">
+      <Next_NPC name="Garret"/>
+      <Next_Stage id="2"/>
+      <Functions_Called function="Dialog"/>
+      <Player_Emotion name="SadSmile"/>
+      <NPC_emotion name="Smile"/>
+      <requirements strength ="0" dexterity="0" constitution ="0"
+                    intelligence="0" wisdom="0" charisma="0"
+                    gold="0" profession=""/>
+    </respond>
+    </responds>
+  </scene>
+</Garret>

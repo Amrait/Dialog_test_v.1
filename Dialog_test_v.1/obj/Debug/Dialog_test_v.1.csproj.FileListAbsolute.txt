@@ -1,0 +1,12 @@
+e:\users\олексій\documents\visual studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\bin\Debug\Dialog_test_v.1.exe.config
+E:\Users\Олексій\documents\visual studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\bin\Debug\Dialog_test_v.1.exe
+E:\Users\Олексій\documents\visual studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\bin\Debug\Dialog_test_v.1.pdb
+E:\Users\Олексій\documents\visual studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\obj\Debug\Dialog_test_v.1.csprojResolveAssemblyReference.cache
+E:\Users\Олексій\documents\visual studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\obj\Debug\Dialog_test_v._1.Form1.resources
+E:\Users\Олексій\documents\visual studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\obj\Debug\Dialog_test_v._1.Properties.Resources.resources
+E:\Users\Олексій\documents\visual studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\obj\Debug\Dialog_test_v.1.csproj.GenerateResource.Cache
+E:\Users\Олексій\documents\visual studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\obj\Debug\Dialog_test_v.1.exe
+E:\Users\Олексій\documents\visual studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\obj\Debug\Dialog_test_v.1.pdb
+E:\Users\Олексій\Documents\Visual Studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\bin\Debug\Dialogs\Narrator.xml
+E:\Users\Олексій\documents\visual studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\bin\Debug\Characters\Characters.xml
+E:\Users\Олексій\documents\visual studio 2015\Projects\Dialog_test_v.1\Dialog_test_v.1\bin\Debug\Dialogs\Garret.xml

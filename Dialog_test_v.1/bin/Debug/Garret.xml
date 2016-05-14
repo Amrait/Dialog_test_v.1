@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Garret>
+  <scene id = "1" text = " Как только Вы подошли, группка мужчин обернулась и Гаррет радостно замахал Вам рукой:
+ 'Привет, Player! Очень хорошо, что ты здесь. Похоже, нам понадобится твоя помощь.
+ Готов к опасностям?' - он понизил голос, - 'Может стать довольно жарко...' ">
+    <respond text ="Жарко, говоришь? Да я горячий парень, черт побери! Мне не бывает слишком жарко!">
+      <Next_NPC name="Garret"/>
+      <Next_Stage id="2"/>
+      <Functions_Called function="Dialog"/>
+      <Player_Emotion name="EvilSmile"/>
+      <NPC_emotion name="Smile"/>
+      <requirements strength ="14" dexterity="0" constitution ="0"
+                    intelligence="0" wisdom="0" charisma="0"
+                    gold="0" profession="Fighter"/>
+    </respond>
+    <respond text ="Ладно, что поделать? Придется разобраться с ними!">
+      <Next_NPC name="Garret"/>
+      <Next_Stage id="2"/>
+      <Functions_Called function="Dialog"/>
+      <Player_Emotion name="SadSmile"/>
+      <NPC_emotion name="Smile"/>
+      <requirements strength ="0" dexterity="0" constitution ="0"
+                    intelligence="0" wisdom="0" charisma="0"
+                    gold="0" profession=""/>
+    </respond>
+    <respond text ="А что, другого пути нет? Думаю, вполне можно договориться.">
+      <Next_NPC name="Garret"/>
+      <Next_Stage id="3"/>
+      <Functions_Called function="Dialog"/>
+      <Player_Emotion name=""/>
+      <NPC_emotion name=""/>
+      <requirements strength ="0" dexterity="0" constitution ="0"
+                    intelligence="15" wisdom="" charisma="0"
+                    gold="0" profession=""/>
+    </respond>
+  </scene>
+  <scene id="2"
+        text=" На его лице появилась зловещая улыбка: 'Я знал, Player, что ты наш человек! Ладно,
+        доставай свои ножички - парни на том складе не промах и гостей не ждут. Нечего языком молоть.' ">
+         <respond text ="Как хорошо встретить знающих людей. Посмотрим, на что они горазды.">
+           <Next_NPC name="Garret"/>
+           <Next_Stage id=""/>
+           <Functions_Called function="Dialog"/>
+           <Player_Emotion name=""/>
+           <NPC_emotion name=""/>
+           <requirements strength ="" dexterity="" constitution =""
+                         intelligence="" wisdom="" charisma=""
+                         gold="" profession=""/>
+         </respond>
+  <respond text ="А мы разве в лоб попрем? Нас же как уток перестреляют. Другие пути есть?">
+           <Next_NPC name="Garret"/>
+           <Next_Stage id=""/>
+           <Functions_Called function="Dialog"/>
+           <Player_Emotion name=""/>
+           <NPC_emotion name=""/>
+           <requirements strength ="" dexterity="" constitution =""
+                         intelligence="" wisdom="12" charisma=""
+                         gold="" profession=""/>
+         </respond>
+  <respond text ="А что, другого пути нет? ДУмаю, вполне можно договориться">
+           <Next_NPC name="Garret"/>
+           <Next_Stage id=""/>
+           <Functions_Called function="Dialog"/>
+           <Player_Emotion name=""/>
+           <NPC_emotion name=""/>
+           <requirements strength ="" dexterity="" constitution =""
+                         intelligence="" wisdom="" charisma=""
+                         gold="" profession=""/>
+         </respond>
+</scene>
+  <scene id="3"
+        text=" На его лице появилась зловещая улыбка: 'Я знал, Player, что ты наш человек! Ладно,
+        доставай свои ножички - парни на том складе не промах и гостей не ждут. Нечего языком молоть.' ">
+         <respond text ="Как хорошо встретить знающих людей. Посмотрим, на что они горазды.">
+           <Next_NPC name="Garret"/>
+           <Next_Stage id=""/>
+           <Functions_Called function="Dialog"/>
+           <Player_Emotion name=""/>
+           <NPC_emotion name=""/>
+           <requirements strength ="" dexterity="" constitution =""
+                         intelligence="" wisdom="" charisma=""
+                         gold="" profession=""/>
+         </respond>
+  <respond text ="А мы разве в лоб попрем? Нас же как уток перестреляют. Другие пути есть?">
+           <Next_NPC name="Garret"/>
+           <Next_Stage id=""/>
+           <Functions_Called function="Dialog"/>
+           <Player_Emotion name=""/>
+           <NPC_emotion name=""/>
+           <requirements strength ="" dexterity="" constitution =""
+                         intelligence="" wisdom="12" charisma=""
+                         gold="" profession=""/>
+         </respond>
+  <respond text ="А что, другого пути нет? ДУмаю, вполне можно договориться">
+           <Next_NPC name="Garret"/>
+           <Next_Stage id=""/>
+           <Functions_Called function="Dialog"/>
+           <Player_Emotion name=""/>
+           <NPC_emotion name=""/>
+           <requirements strength ="" dexterity="" constitution =""
+                         intelligence="" wisdom="" charisma=""
+                         gold="" profession=""/>
+         </respond>
+</scene>
+</Garret>

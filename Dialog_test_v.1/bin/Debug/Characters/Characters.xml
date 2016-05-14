@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Characters>
+  <NPC name="Narrator" image="Narrator.png"/>
+  <NPC name ="Garret" image="Garret.png"/>
+</Characters>

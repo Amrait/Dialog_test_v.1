@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Narrator>
+  <scene id="1"
+        text="Вы видите на улице животное, Player"
+        NPC_Name ="Рассказчик">
+    <additions text ="Это кошка">
+      <requirements Might ="0" Constitution="0" Dexterity ="0"
+                      Intelligence="0" Wisdom="0" Charisma="0"/>
+    </additions>
+    <responds>
+      <respond text ="Приветики, киса"
+               Next_NPC="Garret"
+               Next_id="1"
+               Next_function="Dialog"
+               Background ="">
+        <requirements Might ="0" Constitution="0" Dexterity ="0"
+                      Intelligence="0" Wisdom="0" Charisma="0"/>
+      </respond>
+      <respond text ="[пойти дальше]"
+               Next_NPC="Narrator"
+               Next_id="2"
+               Next_function="Dialog"
+               Background ="">
+        <requirements Might ="0" Constitution="0" Dexterity ="0"
+                      Intelligence="0" Wisdom="0" Charisma="0"/>
+      <fight Enemy1 ="Guard1" Enemy2 ="Guard2" Enemy3="Guard3"/>
+      </respond>
+    </responds>
+  </scene>
+  <scene id="2"
+        text="Вы идете дальше"
+        NPC_Name ="Рассказчик">
+    <additions text =" ">
+      <requirements Might ="0" Constitution="0" Dexterity ="0"
+                      Intelligence="0" Wisdom="0" Charisma="0"/>
+    </additions>
+    <responds>
+      <respond text ="Хорошо иду"
+               Next_NPC="Narrator"
+               Next_id="2"
+               Next_function="Dialog"
+               Background ="">
+        <requirements Might ="0" Constitution="0" Dexterity ="0"
+                      Intelligence="0" Wisdom="0" Charisma="0"/>
+      </respond>
+      <respond text ="Блин, не очень хорошо иду"
+               Next_NPC="Narrator"
+               Next_id="2"
+               Next_function="Dialog"
+               Background ="">
+        <requirements Might ="0" Constitution="0" Dexterity ="0"
+                      Intelligence="0" Wisdom="0" Charisma="0"/>
+      <fight Enemy1 ="Guard1" Enemy2 ="Guard2" Enemy3="Guard3"/>
+      </respond>
+    </responds>
+  </scene>
+</Narrator>
